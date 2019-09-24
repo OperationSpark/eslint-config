@@ -9,6 +9,9 @@
     "lib"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@operationspark/eslint-config-base": "0.1.0"
   }

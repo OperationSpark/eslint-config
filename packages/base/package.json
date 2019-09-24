@@ -9,6 +9,9 @@
     "lib"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "eslint": "^6.4.0",
     "eslint-plugin-import": "^2.18.2"

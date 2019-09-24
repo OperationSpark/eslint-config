@@ -9,6 +9,9 @@
     "lib"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@operationspark/eslint-config-base": "0.1.0",
     "@typescript-eslint/eslint-plugin": "^2.3.1",
