@@ -4,13 +4,17 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "commitmsg": "commitlint -e $GIT_PARAMS"
+    "bootstrap": "lerna bootstrap"
   },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "commitlint -e $GIT_PARAMS"
+    }
   },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
