@@ -1,0 +1,20 @@
+{
+  "name": "@operationspark/eslint-config-typescript",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@operationspark/eslint-config-base": "0.1.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "eslint": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "typescript": "^3.6.3"
+  }
+}
