@@ -1,0 +1,15 @@
+{
+  "name": "@operationspark/eslint-config-student",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@operationspark/eslint-config-base": "0.1.0"
+  }
+}
