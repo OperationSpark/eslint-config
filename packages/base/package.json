@@ -1,0 +1,16 @@
+{
+  "name": "@operationspark/eslint-config-base",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
