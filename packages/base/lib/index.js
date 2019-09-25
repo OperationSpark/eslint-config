@@ -19,4 +19,12 @@ module.exports = {
     },
     sourceType: 'module',
   },
+  overrides: [
+    {
+      files: ['**/*.test.*'],
+      rules: {
+        'prefer-arrow-callback': 0,
+      },
+    },
+  ],
 };
