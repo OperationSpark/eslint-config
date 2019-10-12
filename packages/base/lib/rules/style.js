@@ -96,7 +96,11 @@ module.exports = {
     'sort-keys': 0,
     'sort-vars': 0,
     'space-before-blocks': 2,
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['error', {
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "always"
+    }],
     'space-in-parens': 2,
     'space-infix-ops': 2,
     'space-unary-ops': ['error', {
