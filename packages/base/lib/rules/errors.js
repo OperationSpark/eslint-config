@@ -16,11 +16,7 @@ module.exports = {
     'no-empty-character-class': 2,
     'no-ex-assign': 2,
     'no-extra-boolean-cast': 2,
-    'no-extra-parens': [2, 'all', {
-      nestedBinaryExpressions: false,
-      enforceForArrowConditionals: false,
-      ignoreJSX: 'all',
-    }],
+    'no-extra-parens': 0,
     'no-extra-semi': 2,
     'no-func-assign': 2,
     'no-inner-declarations': 2,
