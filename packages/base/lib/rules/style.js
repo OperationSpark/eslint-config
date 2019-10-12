@@ -28,7 +28,12 @@ module.exports = {
       'data',
       'results',
     ],
-    'id-length': 2,
+    'id-length': ['error', {
+      exceptions: [
+        '_',
+        '$',
+      ],
+    }],
     'id-match': 0,
     'implicit-arrow-linebreak': 2,
     'indent': ['error', 2],
