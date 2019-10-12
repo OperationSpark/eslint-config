@@ -86,7 +86,7 @@ module.exports = {
     'no-whitespace-before-property': 2,
     'nonblock-statement-body-position': 0,
     'object-curly-spacing': ['error', 'always'],
-    'object-property-newline': 2,
+    'object-property-newline': 0,
     'one-var': ['error', 'never'],
     'one-var-declaration-per-line': 0,
     'operator-assignment': 2,
