@@ -18,7 +18,7 @@ module.exports = {
     'func-names': 0,
     'func-style': 0,
     'function-call-argument-newline': 0,
-    'function-paren-newline': 2,
+    'function-paren-newline': ['error', 'consistent'],
     'id-blacklist': ['error',
       'el',
       'element',
