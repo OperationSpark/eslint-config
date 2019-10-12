@@ -8,7 +8,7 @@ module.exports = {
     'consistent-return': 2,
     'curly': 2,
     'default-case': 2,
-    'dot-location': 2,
+    'dot-location': ['error', 'property'],
     'dot-notation': 2,
     'eqeqeq': 2,
     'guard-for-in': 0,
