@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     'arrow-body-style': 2,
-    'arrow-parens': 2,
+    'arrow-parens': 0,
     'arrow-spacing': 2,
     'constructor-super': 2,
     'generator-star-spacing': 2,

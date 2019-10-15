@@ -5,7 +5,9 @@ module.exports = {
     'array-element-newline': ['error', 'consistent'],
     'block-spacing': 2,
     'brace-style': 2,
-    'camelcase': 2,
+    'camelcase': ['error', {
+      'properties': 'never',
+    }],
     'capitalized-comments': 0,
     'comma-dangle': ['error', 'only-multiline'],
     'comma-spacing': 2,
@@ -18,7 +20,7 @@ module.exports = {
     'func-names': 0,
     'func-style': 0,
     'function-call-argument-newline': 0,
-    'function-paren-newline': 2,
+    'function-paren-newline': ['error', 'consistent'],
     'id-blacklist': ['error',
       'el',
       'element',
@@ -28,7 +30,12 @@ module.exports = {
       'data',
       'results',
     ],
-    'id-length': 2,
+    'id-length': ['error', {
+      exceptions: [
+        '_',
+        '$',
+      ],
+    }],
     'id-match': 0,
     'implicit-arrow-linebreak': 2,
     'indent': ['error', 2],
@@ -81,7 +88,7 @@ module.exports = {
     'no-whitespace-before-property': 2,
     'nonblock-statement-body-position': 0,
     'object-curly-spacing': ['error', 'always'],
-    'object-property-newline': 2,
+    'object-property-newline': 0,
     'one-var': ['error', 'never'],
     'one-var-declaration-per-line': 0,
     'operator-assignment': 2,
@@ -96,7 +103,11 @@ module.exports = {
     'sort-keys': 0,
     'sort-vars': 0,
     'space-before-blocks': 2,
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['error', {
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "always"
+    }],
     'space-in-parens': 2,
     'space-infix-ops': 2,
     'space-unary-ops': ['error', {
